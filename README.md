@@ -1,6 +1,6 @@
 # SharpTL.Compiler
 
-Compiles a TL-schema defined in [Type Language] (or JSON equivalent) to C# object model.
+Compiles a TL-schema defined in [Type Language] (or JSON equivalent) to C# object model attributed for using with [SharpTL] serialization library.
 
 Usage example:
 ```powershell
