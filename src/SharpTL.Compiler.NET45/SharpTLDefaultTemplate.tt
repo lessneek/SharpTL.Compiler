@@ -13,10 +13,20 @@
 // ------------------------------------------------------------------------------
 
 #pragma warning disable 1591
+
+#region R#
+
+// ReSharper disable UnusedAutoPropertyAccessor.Global
+// ReSharper disable CollectionNeverUpdated.Global
+// ReSharper disable UnusedMemberInSuper.Global
+// ReSharper disable UnusedParameter.Global
 // ReSharper disable UnusedMember.Global
 // ReSharper disable PartialTypeWithSinglePart
 // ReSharper disable ClassNeverInstantiated.Global
 // ReSharper disable InconsistentNaming
+
+#endregion
+
 namespace <#=_templateVars.Namespace #>
 {
     using SharpTL;
@@ -105,7 +115,7 @@ private void WriteTLObjects(IEnumerable<TLCombinator> constructors, IEnumerable<
         public <#=parameter.Type.Name #> <#= parameter.Name #> { get; set; }
 
 <#+
-        } 
+        }
 #>
     }
 
